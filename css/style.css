@@ -1,0 +1,48 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+}
+.center-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.gap{
+    gap: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.center a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+}
+.center a:hover{
+    background-color: cyan;
+}
+.profile{
+    width: 10%;
+    border-radius: 50%;
+}
+.heading{
+    color: dimgrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paragraph{
+    width:60%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    width: 10%;  
+}
+.gallery{
+    gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
